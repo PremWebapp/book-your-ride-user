@@ -1,0 +1,31 @@
+.rounded{
+    border-radius: 1.25rem!important;
+
+}
+.profile{
+    top: -58px;
+    left: 148px;
+}
+
+
+.mtop {
+    margin-top: 6rem!important;
+}
+.new2 {
+    border-top: 3px solid red;
+    width:70px;
+    text-align: end;
+  }
+  .new3 {
+    border-top: 3px solid rgb(255, 85, 0);
+    width: 70px;
+    text-align: end;
+    line-height: 0px;
+    margin-top: -13px;
+    margin-left: 70px;
+
+  }
+
+  .linemargin{
+    margin-top: -20px;
+  }

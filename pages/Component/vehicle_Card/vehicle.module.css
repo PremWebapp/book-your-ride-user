@@ -1,0 +1,28 @@
+.textColor{
+    color: chocolate;
+}
+.new2 {
+    border-top: 3px solid red;
+    width:70px;
+    text-align: end;
+  }
+  .new3 {
+    border-top: 3px solid rgb(255, 85, 0);
+    width: 70px;
+    text-align: end;
+    line-height: 0px;
+    margin-top: -13px;
+    margin-left: 70px;
+
+  }
+  .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #f9fafb !important;
+    background-clip: border-box;
+    /* border: 1px solid rgba(0,0,0,.125); */
+    /* border-radius: 0.25rem; */
+}
