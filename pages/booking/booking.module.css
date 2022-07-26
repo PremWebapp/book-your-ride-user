@@ -1,0 +1,29 @@
+.cardRound{
+    border-radius: 20PX;
+    box-shadow: 0px 0px 7px 3px rgb(0 0 0 / 23%);
+}
+.filterLabel{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.filrteCardRap{
+    padding-right: 8vw;
+}
+.itemCardName{
+    margin-bottom: 1px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.itemCarDate{
+    margin-bottom: 1px;
+    font-size: 13px;
+    color: rgb(145, 150, 155);
+}
+
+.itemCarPrice{
+    font-size: 15px;
+    color: rgb(236, 17, 17);
+    font-weight: 700;
+
+}
