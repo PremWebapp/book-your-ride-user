@@ -9,7 +9,7 @@ function History() {
     };
 
     return (
-        <div className='container'>
+        <div className='container mb-5'>
             <Tabs defaultActiveKey="1" onChange={fgdgdgdgd}>
                 <TabPane tab="Upcoming" key="1">
                  <Historycard/>
