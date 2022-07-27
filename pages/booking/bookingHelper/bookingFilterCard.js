@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Progress, Button, Dropdown, Space, Menu, Checkbox, Slider } from 'antd';
-import style from "./booking.module.css"
+import style from "../booking.module.css"
+
 import { DownOutlined, UserOutlined } from '@ant-design/icons';
 function BookingFilterCard() {
 
@@ -51,7 +52,7 @@ function BookingFilterCard() {
     );
     return (
         <div>
-            <div className="p-3 mt-4 ">
+            <div className="p-3 mt-5 ">
                 <div class={`card  ${style.cardRound} px-4 py-5`}>
                     <div class={`card-body ${style.filrteCardRap} py-5`}>
                         <h5 class="card-title">Price Per Kilometer</h5>

@@ -1,7 +1,6 @@
  @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css");
- @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js")
 
-.main-header{
+ @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js") .main-header {
    background-color: #fff !important;
    border-bottom: 1px solid #e5e5e5;
  }
@@ -1143,8 +1142,6 @@
  #swipermain #navigation-caraousel .carousel-control-prev {
    background-color: red;
    z-index: 99;
-
-
  }
 
  #swipermain #navigation-caraousel .carousel-control-next {
@@ -1574,31 +1571,59 @@
    border-radius: 0.25rem;
  }
 
-
  .ant-slider-track {
    height: 2px !important;
    background-color: #cd2929 !important;
  }
 
  .ant-slider-rail {
-  background-color: #e1c5c5 !important;
-  height: 2px !important;
-}
-.ant-tabs-tab {
-  padding: 16px 5vw !important;
-  font-size: 15px !important;
-}
+   background-color: #e1c5c5 !important;
+   height: 2px !important;
+ }
 
-.ant-space-align-center{
-  gap: 8vw !important;
+ .ant-tabs-tab {
+   padding: 16px 5vw !important;
+   font-size: 15px !important;
+ }
 
-}
+ .ant-space-align-center {
+   gap: 8vw !important;
+ }
 
-.ant-dropdown-trigger{
-  background-color: #363333 !important;
-    color: white !important;
-    height: 38px !important;
-}
-.ant-tabs-nav{
-  margin: 0 0 25px 100px !important;
+ .ant-dropdown-trigger {
+   background-color: #363333 !important;
+   color: white !important;
+   height: 38px !important;
+ }
+
+ .ant-tabs-nav {
+   margin: 0 0 25px 100px !important;
+ }
+
+ .slick-arrow {
+   background-color: red !important;
+   width: 25px !important;
+   height: 23px !important;
+ }
+
+ .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+   color: #ff1818 !important;
+   /* font-size: 14px !important; */
+   font-weight: 450 !important;
+ }
+
+ .ant-tabs-tab-btn:hover {
+   color: red;
+ }
+
+ .ant-tabs-tab:hover {
+   color: red !important;
+ }
+
+ .ant-tabs-ink-bar {
+   background: #e52020 !important;
+ }
+ .ant-tabs > .ant-tabs-nav, .ant-tabs > div > .ant-tabs-nav {
+  position:unset !important;
+  border:none !important;
 }

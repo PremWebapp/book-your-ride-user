@@ -25,5 +25,22 @@
     font-size: 15px;
     color: rgb(236, 17, 17);
     font-weight: 700;
-
+}
+.detilsImage{
+    width: 100%;
+}
+.detilText{
+    padding-top: 8vh;
+}
+.descriptionCard{
+    border-radius: 20PX;
+    background-color: rgb(247, 242, 242);
+}
+.descriptionLabel{
+    font-size: 14px;
+    font-weight: 700;
+}
+.ratingImg{
+    border-radius: 50%;
+    width: 13%;
 }

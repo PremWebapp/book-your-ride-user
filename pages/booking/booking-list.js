@@ -1,7 +1,6 @@
 import { Tabs } from 'antd';
-import style from "./booking.module.css"
-import BookingFilterCard from './bookingFilterCard';
-import ItemCard from './itemCard';
+import BookingFilterCard from './bookingHelper/bookingFilterCard';
+import ItemCard from './bookingHelper/itemCard';
 
 const Bookingcablist = () => {
   const { TabPane } = Tabs;
@@ -28,23 +27,22 @@ const Bookingcablist = () => {
                   <span className="font-weight-bold pe-5 position-absolute mt-3 fw-bold fs-5 ">Sort By </span>
 
                     <Tabs defaultActiveKey="1" onChange={fgdgdgdgd}>
-                    {/* <TabPane tab="Sort By" key="0" disabled>
-                       
-                      </TabPane> */}
-
                       <TabPane tab="Popularty" key="1">
                         <ItemCard/>
                         <ItemCard/>
-                        <ItemCard/>
+                        <ItemCard/> 
                         <ItemCard/>
                         <ItemCard/>
                         <ItemCard/>
                       </TabPane>
                       <TabPane tab="Price - Low to High" key="2">
-                        Content of Tab Pane 2
+                      <ItemCard/>
+                        <ItemCard/>
+                        <ItemCard/> 
                       </TabPane>
                       <TabPane tab="Price - High to Low" key="3">
-                        Content of Tab Pane 3
+                      <ItemCard/>
+                        <ItemCard/>
                       </TabPane>
                     </Tabs>
                   </div>
